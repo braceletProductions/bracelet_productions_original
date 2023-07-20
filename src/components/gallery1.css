@@ -1,0 +1,96 @@
+
+body {
+ background-color: rgb(185, 20, 20);
+  font-family: "Asap", sans-serif;
+  color:#989898;
+  margin:10px;
+  font-size:16px;
+}
+
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+.card{
+  width: 380px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.main{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content:center;
+   gap: 30px;
+   margin-top: 80px;
+}
+.img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+
+.green{
+  background-color:#6fb936;
+}
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:15px;
+        }
+
+.transition {
+    -webkit-transform: scale(1.12); 
+    -moz-transform: scale(1.12);
+    -o-transform: scale(1.12);
+    transform: scale(1.12);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+    .zoom-container {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    /* .zoom-image {
+      transition: transform 0.15s ease;
+    }
+    
+    .zoom-container:hover .zoom-image {
+      transform: scale(1.1);
+    }
+   */
+    .card img {
+      width: 100%;
+      transition: 0.5s all ease-in-out;
+  }
+
+  .card:hover img {
+      transform: scale(1.5);
+  }
+    
+  .btn{
+    background-color:black;
+    color:white;
+  }
+  btn:hover{
+   background-color:rgb(17, 28, 227);
+   color:rgb(16, 15, 15);
+  }
+  .button-container{
+    margin-left:11%;
+    margin-right:11%;
+  }

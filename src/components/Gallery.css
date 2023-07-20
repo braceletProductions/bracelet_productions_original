@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+color: #E4EBF1;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+  font-weight:400;
+
+}
+
+/* Navigation and  Header section   */
+
+
+ ul {
+    display: flex;
+    justify-content : center;
+    list-style: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    background-color: #5880CD;
+    opacity: 0.7;
+    
+  }
+
+li a{
+    padding: 0 20px;
+    text-align: center; 
+    color: #fff;
+    text-decoration: none;
+ 
+}
+
+li a:hover{
+    color: #D97B9E;
+}
+    
+.banner{
+    position: relative;
+    opacity: 0.8;
+    background-image: url('https://s9.postimg.cc/otyhkzwxb/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.banner-text{
+    text-align: center;
+    margin-top: 180px;
+}
+
+header .banner-text h2{
+    font-size: 90px;
+    color: #fff;
+    font-style: italic;
+
+}
+
+header .banner-text p{
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+.btn-banner a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+header .btn-banner{
+    font-size: 30px;
+    background-color: #2E60C0;
+    border-style: none;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Our Story Section   */
+.our-story{
+    background-color: #E4EBF1;
+
+}
+
+.our-story h3{
+    text-align: center;
+    font-size: 30px;
+    color: #2E60C0;
+    padding-top: 30px;
+  
+
+}
+/* .container{
+    margin: auto;
+    max-width: 1200px;
+} */
+
+.our-story p {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    padding: 10px;
+    
+
+}
+
+ .img-story{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #E4EBF1;
+
+
+
+} 
+
+.img-001 img {
+    height:350px;
+    width: 350px;
+    margin:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.wedding{
+   
+    color: #000;
+    height: 500px;
+    text-align: center;
+   
+}
+
+.wedding > h3 {
+    Text-align: center;
+    font-size: 30px;
+    color: #2E60C0;
+    padding: 20px 0;
+   
+}
+
+.wedding .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-01, .box-02{
+    border-left: 1px solid #333;
+    width: 50%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style:italic;
+}
+
+.wedding p{
+    color: #143C73;
+
+}
+
+.box-02{
+    border-left: 1px solid #2E60C0;
+    
+}
+.wedding h3{
+       padding-bottom: 60px;
+       font-size: 30px;
+       
+       
+}
+.btn-register a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-register{
+    font-size: 30px;
+    background-color: #2E60C0;
+    border-style: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.getting-there{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(238, 230, 228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.getting-there .gt-text{
+    width: 50%;
+    margin:auto;
+    padding: 25px;
+}
+
+.getting-there .gt-text  h3{
+font-size: 30px;
+padding-bottom: 25px;
+font-style: italic;
+
+
+}
+.getting-there .gt-text  h4{
+    padding-top: 10px;
+    color: #333;
+    }
+ .getting-there .gt-text  p{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        
+        }
+
+    
+
+
+footer{
+    background-color: #2E60C0;
+    text-align: center;
+    height: 200px;
+    padding-top: 70px;
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+}
+footer a{
+    color: #E4EBF1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
