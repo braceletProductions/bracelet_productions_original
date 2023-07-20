@@ -3,7 +3,7 @@ import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
 import FlexBetween from "../components/FlexBetween";
 import TestimonidalCard from "../components/TestimonialCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import data from "../components/tesimonialdata";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -65,24 +65,24 @@ const Testimonials = () => {
           /*         modules={[EffectCoverflow, Pagination]} */
           className="mySwiper"
         >
-          <SwiperSlide className="TestimonialSwipe">
-            <TestimonidalCard></TestimonidalCard>
-          </SwiperSlide>
-          <SwiperSlide className="TestimonialSwipe">
-            <TestimonidalCard></TestimonidalCard>
-          </SwiperSlide>
-          <SwiperSlide className="TestimonialSwipe">
-            <TestimonidalCard></TestimonidalCard>
-          </SwiperSlide>
-          <SwiperSlide className="TestimonialSwipe">
-            <TestimonidalCard></TestimonidalCard>
-          </SwiperSlide>
-          <SwiperSlide className="TestimonialSwipe">
-            <TestimonidalCard></TestimonidalCard>
-          </SwiperSlide>
-          <SwiperSlide className="TestimonialSwipe">
-            <TestimonidalCard></TestimonidalCard>
-          </SwiperSlide>
+          {
+            data.map((customer,i)=>{
+              return(
+                <div key={customer.id}>
+                   <SwiperSlide className="TestimonialSwipe">
+                  <TestimonidalCard
+                   name={customer.name}
+                   feedback={customer.feedback}
+                  />
+                 </SwiperSlide>
+                </div>
+               
+              )
+             
+            })
+          }
+         
+          
         </Swiper>
       </Box>
     </Box>

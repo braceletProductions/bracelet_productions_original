@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import TestimonialPic from "../assets/Testimonial.png";
 import { Box } from "@mui/material";
 
-export default function ImgMediaCard() {
+export default function ImgMediaCard({name,feedback}) {
   return (
     <Card
       className="card"
@@ -43,58 +43,12 @@ export default function ImgMediaCard() {
               },
             }}
           >
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          <p style={{backgroundColor:"rgb(255, 0, 128)"}}>{name}</p> <br></br> <div style={{textAlign:"justify"}}><h6 style={{textAlign:"center"}}>{feedback}</h6></div>
+           
           </Typography>
         </CardContent>
-        <CardMedia
-          component="img"
-          alt="green iguana"
-          sx={{
-            height: "120px",
-            width: "120px",
-            borderRadius: "50%",
-            overflow: "hidden",
-            border: "4px solid white",
-          }}
-          src={TestimonialPic}
-        />
-        <CardContent>
-          <Typography
-            gutterBottom
-            className="card-text"
-            variant="h4"
-            component="div"
-            sx={{
-              textAlign: "center",
-              color: "#FFC300",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
-            }}
-          >
-            Person Name
-          </Typography>
-          <Typography
-            className="card-text"
-            gutterBottom
-            component="div"
-            sx={{
-              color: "#6CCFF6",
-              textAlign: "center",
-              fontFamily: `"Poppins", "sans-serif"`,
-              fontFamily: `"Righteous", "cursive"`,
-              fontSize: "28px",
-            }}
-          >
-            Company
-          </Typography>
-        </CardContent>
+        
       </Box>
-
-      {/*  <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions> */}
     </Card>
   );
 }
