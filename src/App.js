@@ -5,7 +5,7 @@ import HomeWrapper from "./components/HomeWrapper";
 import Gallerys from "./components/Gallerys";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Form from "./scenes/Form";
-
+import GotoTopBtn from "./scenes/GotoTopBtn"
 function App() {
   return (
 
@@ -19,6 +19,7 @@ function App() {
           <Route path="/details" element={<Form />} />
         </Routes>
         <Footer></Footer>
+        <GotoTopBtn/>
       </div>
     </Router>
   );

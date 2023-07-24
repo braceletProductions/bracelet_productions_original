@@ -43,27 +43,13 @@ export default function ImgMediaCard({name,feedback}) {
               },
             }}
           >
-            <p style={{backgroundColor:"rgb(255, 0, 128)"}}>SUCCESS STORIES</p>  
-            <h2>Our Case Stories</h2>
+            <p style={{backgroundColor:"rgb(255, 0, 128)"}}>OUR SUCCESS STORIES</p>  
+           
          <h6 style={{textAlign:"center"}}>{feedback}</h6>
           <p style={{color:"#FFC300"}}>{name}</p>  
            
           </Typography>
         </CardContent>
-      
-        {/* <CardMedia
-          component="img"
-          alt="green iguana"
-          sx={{
-            height: "120px",
-            width: "120px",
-            borderRadius: "50%",
-            overflow: "hidden",
-            border: "4px solid white",
-            
-          }}
-          src={TestimonialPic}
-        /> */}
       </Box>
     </Card>
   );

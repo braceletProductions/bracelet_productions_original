@@ -14,7 +14,7 @@ const data=[
 {
     id:3,
     name:"Shrishti and Karan",
-    feedback:"Team Bracelet Production is so professional and punctual for the work, they have absolutely amazing coordination and communication."
+    feedback:"Team Bracelet Production is so professional and punctual for the work, they have absolutely amazing coordination and communication.They inform and updated us for every small thing. "
     
 },
 {
@@ -41,10 +41,11 @@ const data=[
     feedback:"We were confused earlier how things will go but at the end team was amazing, Trust them this team will execute what they are saying"
     
 },
+
 {
     id:8,
-    name:"Earth Infra",
-    feedback:"Very professional and grounded team "
+    name:"Ravi Taneja & Swati Sabarwal",
+    feedback:"We suggest you must pick bracelet productions for your wedding, We are glad they did what they said and last but not the least, Thank You So Much Bracelet Productions for making our wedding like a dream come true. Stay Blessed "
     
 }
 ]

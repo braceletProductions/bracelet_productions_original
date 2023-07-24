@@ -22,11 +22,12 @@ const Form = () => {
           padding: "2rem",
           borderRadius: "8px",
           boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)",
-          marginTop: "2rem",
+          marginTop: "3rem",
           marginBottom: "2rem",
+          height: "580px",
         }}
       >
-        <Typography variant="h5" sx={{ marginBottom: "1.5rem" }}>
+        <Typography variant="h5" sx={{ marginBottom: "1.5rem", marginTop:"10px" }}>
           Get a Quote
         </Typography>
         <form onSubmit={handleSubmit}>
@@ -39,6 +40,7 @@ const Form = () => {
                 variant="outlined"
               />
             </Grid>
+         
             <Grid item xs={12}>
               <TextField
                 required
