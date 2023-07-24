@@ -53,7 +53,7 @@ const Testimonials = () => {
           grabCursor={true}
           centeredSlides={true}
           modules={[Autoplay]}
-          slidesPerView={isMobile ? "1" : "3"}
+          slidesPerView={isMobile ? "1" : "1"}
           loop={true}
           coverflowEffect={{
             rotate: 50,
@@ -71,8 +71,9 @@ const Testimonials = () => {
                 <div key={customer.id}>
                    <SwiperSlide className="TestimonialSwipe">
                   <TestimonidalCard
-                   name={customer.name}
+                   
                    feedback={customer.feedback}
+                   name={customer.name}
                   />
                  </SwiperSlide>
                 </div>
