@@ -254,7 +254,25 @@ const Contactus = () => {
             },
           }}
         >
-          OR CALL US: +91-7011031017
+          OR CALL US:{" "}
+          <a href="tel:+91-7011031017">
+            <Typography
+              variant="h3"
+              sx={{
+                color: "#FFC300",
+                // fontFamily: `"Poppins", "sans-serif"`,
+                // fontFamily: `"Righteous", "cursive"`,
+                fontSize: {
+                  xs: "22px",
+                  sm: "32px",
+                  md: "36x",
+                  lg: "42px",
+                },
+              }}
+            >
+              +91-7011031017
+            </Typography>
+          </a>
         </Typography>
       </FlexBetween>
     </FlexBetween>
