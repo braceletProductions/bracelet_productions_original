@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,13 +8,11 @@ import "./form.css";
 import data from "../components/tesimonialdata";
 
 const Testimonials = ({ name, feedback }) => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const handleSlideChange = (swiper) => {
-    setCurrentSlide(swiper.activeIndex);
-  };
+  // const handleSlideChange = (swiper) => {
+  //   setCurrentSlide(swiper.activeIndex);
+  // };
 
   return (
     <Box>

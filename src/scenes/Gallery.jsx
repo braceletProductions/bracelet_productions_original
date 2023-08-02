@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Gallery_1 from "../assets/Gallery_1.jpg";
@@ -39,8 +39,6 @@ import Gallery_36 from "../assets/Gallery_36.jpeg";
 import Gallery_37 from "../assets/Gallery_37.jpeg";
 import Gallery_38 from "../assets/Gallery_38.jpeg";
 import Gallery_39 from "../assets/Gallery_39.jpeg";
-
-
 
 // Import Swiper styles
 import "swiper/css";
@@ -86,120 +84,303 @@ const Gallery = () => {
         className="mySwiper"
       >
         <SwiperSlide className="Gallery_Slide">
-          <Box component="img" src={Gallery_1} ></Box>
-        </SwiperSlide>
-         <SwiperSlide>
-          <Box component="img" src={Gallery_2} style={{height:"300px",width:"400px"}}></Box>
+          <Box component="img" src={Gallery_1}></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_3} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_2}
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_4} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_3}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_5} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_4}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_7} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_5}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_8} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_7}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_9} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_8}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_10} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_9}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_11} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_10}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_12} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_11}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_13} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_12}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_14} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_13}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_15} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_14}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_16} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_15}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_17} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_16}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_18} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_17}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_19} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_18}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_20} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_19}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_21} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_20}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_22} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_21}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_23} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_22}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_24} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_23}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_25} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_24}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_26} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_25}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_27} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_26}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_28} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_27}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_29} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_28}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_30} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_29}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_31} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_30}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_32} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_31}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_33} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_32}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_34} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_33}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_35} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_34}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_36} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_35}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_37} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_36}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_38} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_37}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
         <SwiperSlide>
-          <Box component="img" src={Gallery_39} className="GallerySwipe"  style={{height:"300px",width:"400px"}}></Box>
+          <Box
+            component="img"
+            src={Gallery_38}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
         </SwiperSlide>
-
+        <SwiperSlide>
+          <Box
+            component="img"
+            src={Gallery_39}
+            className="GallerySwipe"
+            style={{ height: "300px", width: "400px" }}
+          ></Box>
+        </SwiperSlide>
       </Swiper>
     </Box>
   );
