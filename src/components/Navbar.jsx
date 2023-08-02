@@ -63,7 +63,7 @@ const Navbar = () => {
               sx={{ "& .MuiDrawer-paper": { backgroundColor: "black" } }}
             >
               <List>
-                <Link to="#About" smooth>
+                <Link to="/#About" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -90,7 +90,7 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                <Link to="#Services" smooth>
+                <Link to="/#Services" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -113,7 +113,7 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                <Link to="#Gallery" smooth>
+                <Link to="/#Gallery" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -136,7 +136,7 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                <Link to="#Project" smooth>
+                <Link to="/#Project" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -187,12 +187,12 @@ const Navbar = () => {
               },
             }}
           >
-            <Link to="#About" smooth>
+            <Link to="/#About" smooth>
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 About
               </Typography>
             </Link>
-            <Link to="#Services" smooth>
+            <Link to="/#Services" smooth>
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 Services
               </Typography>
@@ -202,7 +202,7 @@ const Navbar = () => {
                 Gallery
               </Typography>
             </RouterLink>
-            <Link to="#contact" smooth>
+            <Link to="/#contact" smooth>
               <Typography fontSize="16px" sx={{ color: "white" }}>
                 Contact
               </Typography>
