@@ -25,7 +25,7 @@ const data=[
 },
 {
     id:5,
-    name:"Swati Singh and Vatsal Chauha",
+    name:"Swati Singh and Vatsal Chauhan",
     feedback:"We are glad that we choose bracelet productions for our wedding, They are fab."
     
 },
