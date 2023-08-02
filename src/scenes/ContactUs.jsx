@@ -1,8 +1,8 @@
 import React from "react";
 import FlexBetween from "../components/FlexBetween";
 import { Box, Button, InputBase, Typography } from "@mui/material";
-import IconButton, { IconButtonProps } from "@mui/material/IconButton";
-import { Email, AddLocationAlt } from "@mui/icons-material";
+import IconButton from "@mui/material/IconButton";
+import { AddLocationAlt } from "@mui/icons-material";
 import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
 

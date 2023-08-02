@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import LG from "../assets/LG.jpg";
@@ -18,11 +18,8 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
-import { styled } from "@mui/system";
 
 const ValuableClients = () => {
-  const progressCircle = useRef(null);
-  const progressContent = useRef(null);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 

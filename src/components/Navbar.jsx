@@ -18,7 +18,7 @@ import React, { useState } from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import logo from "../assets/logo.png";
 import FlexBetween from "./FlexBetween";
-import {Link as RouterLink} from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
@@ -29,29 +29,31 @@ const Navbar = () => {
     <AppBar
       sx={{
         position: "static",
-        
-         background: "black", 
+
+        background: "black",
         boxShadow: "none",
         padding: { xs: "1rem", sm: "1.2rem", md: "1.5rem", lg: "0.5rem" },
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/*  LEFTSIDE */}
-        <Box
-          component="img"
-          src={logo}
-          width="120px"
-          height="80px"
-          sx={{
-            width: {
-              xs: "60px",
-              sm: "80px",
-              md: "100px",
-              lg: "120px",
-            },
-            height: { xs: "40px", sm: "50px", md: "65px", lg: "80px" },
-          }}
-        ></Box>
+        <RouterLink to="/">
+          <Box
+            component="img"
+            src={logo}
+            width="120px"
+            height="80px"
+            sx={{
+              width: {
+                xs: "60px",
+                sm: "80px",
+                md: "100px",
+                lg: "120px",
+              },
+              height: { xs: "40px", sm: "50px", md: "65px", lg: "80px" },
+            }}
+          ></Box>
+        </RouterLink>
 
         {isMobile ? (
           <Box component="nav">
@@ -207,16 +209,19 @@ const Navbar = () => {
                 Contact
               </Typography>
             </Link>
-           <Link to="/details"> <Button
-              variant="contained"
-              sx={{
-                backgroundColor: "#FFD60A",
-                color: "#003566",
-                fontWeight: "bold",
-              }}
-            > 
-              Get a Quote
-            </Button></Link>
+            <Link to="/details">
+              {" "}
+              <Button
+                variant="contained"
+                sx={{
+                  backgroundColor: "#FFD60A",
+                  color: "#003566",
+                  fontWeight: "bold",
+                }}
+              >
+                Get a Quote
+              </Button>
+            </Link>
           </FlexBetween>
         )}
       </Toolbar>

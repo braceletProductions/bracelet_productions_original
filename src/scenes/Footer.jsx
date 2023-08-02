@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import FlexBetween from "../components/FlexBetween";
-import IconButton, { IconButtonProps } from "@mui/material/IconButton";
+import IconButton from "@mui/material/IconButton";
 import { FacebookOutlined } from "@mui/icons-material";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
