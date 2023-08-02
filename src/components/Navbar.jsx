@@ -115,7 +115,7 @@ const Navbar = () => {
                     </ListItemButton>
                   </ListItem>
                 </Link>
-                <Link to="/#Gallery" smooth>
+                <RouterLink to="/Gallery" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -137,8 +137,8 @@ const Navbar = () => {
                       </ListItemIcon>
                     </ListItemButton>
                   </ListItem>
-                </Link>
-                <Link to="/#Project" smooth>
+                </RouterLink>
+                <Link to="/#contact" smooth>
                   <ListItem
                     onClick={() => {
                       setIsSidebarOpen(!isSidebarOpen);
@@ -154,7 +154,7 @@ const Navbar = () => {
                               color: "white",
                             }}
                           >
-                            Project
+                            Contact
                           </Typography>
                         </ListItemText>
                       </ListItemIcon>
