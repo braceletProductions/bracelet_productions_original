@@ -1,0 +1,75 @@
+.flag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  position: fixed;
+  z-index: 8;
+  top: 30px;
+  right: 20px;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border: 1px solid #000;
+  animation: waving 3s infinite alternate;
+}
+
+.saffron-stripe,
+.white-stripe,
+.green-stripe {
+  height: 33.33%;
+}
+
+.saffron-stripe {
+  background-color: #ff9933;
+}
+
+.white-stripe {
+  background-color: #ffffff;
+}
+
+.green-stripe {
+  background-color: #138808;
+}
+
+.chakra {
+  width: 25%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: center;
+  transform: translate(-50%, -50%);
+  animation: spin 6s linear infinite;
+}
+.wish {
+  position: absolute;
+  /* color: #FFFFFF; */
+  bottom: 30px;
+  font-size: x-large;
+  background: -webkit-linear-gradient(45deg,#fa8e01, #f5f2f2, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: waving 3s infinite alternate;
+}
+
+@keyframes waving {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 10px);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
