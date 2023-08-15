@@ -16,7 +16,7 @@ const IndianFlag = ({ wish }) => {
         />
       </div>
       <h6 className="wish">{wish}</h6>
-    </div>
+      </div>
   );
 };
 
