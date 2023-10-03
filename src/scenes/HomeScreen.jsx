@@ -46,7 +46,7 @@ const HomeScreen = () => {
             textShadow: "4px 4px black",
           }}
         >
-          Host Your Dream Event
+          Plan Your Dream Event With us.
         </Typography>
       </Box>
     </Box>
