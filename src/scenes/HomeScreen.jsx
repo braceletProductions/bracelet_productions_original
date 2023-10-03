@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import homeImage from "../assets//home3.png";
+import homeImage from "../assets/landing/Wedding-Cover-Image.jpg";
 
 const HomeScreen = () => {
   return (
