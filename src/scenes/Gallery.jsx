@@ -333,14 +333,14 @@ const Gallery = () => {
             style={{ height: "300px", width: "400px" }}
           ></Box>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Box
             component="img"
             src={Gallery_34}
             className="GallerySwipe"
             style={{ height: "300px", width: "400px" }}
           ></Box>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <Box
             component="img"

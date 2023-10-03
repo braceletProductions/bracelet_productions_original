@@ -42,6 +42,22 @@ const Footer = () => {
             },
           }}
         >
+        Bracelet Productions, Unit of Drift of Thread
+         </Typography>
+      </FlexBetween>
+      <FlexBetween>
+        <Typography
+          sx={{
+            fontFamily: `"Poppins", "sans-serif"`,
+            textAlign: "center",
+            fontSize: {
+              xs: "16px",
+              sm: "16px",
+              md: "18px",
+              lg: "13px",
+            },
+          }}
+        >
           Copyright © 2023 Bracelet Productions | Developed By Indian Ventures
         </Typography>
       </FlexBetween>

@@ -78,18 +78,6 @@ const AboutUs = () => {
             Our clients have always been satisfied with the services rendered by
             Bracelet Productions.
           </Typography>
-          <Button
-            variant="contained"
-            sx={{
-              width: "8rem",
-              backgroundColor: "#FFC300",
-              color: "#003566",
-              fontWeight: "bold",
-              fontFamily: `"Poppins", "sans-serif"`,
-            }}
-          >
-            Read More
-          </Button>
         </Box>
 
         <FlexBetween

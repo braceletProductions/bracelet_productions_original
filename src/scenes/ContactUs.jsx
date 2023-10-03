@@ -227,7 +227,23 @@ const Contactus = () => {
             },
           }}
         >
-          82, DDA Mini Market, Behind Sahyog Building, Nehru Place, Delhi 11019
+          82, DDA Mini Market, Behind Sahyog Building,
+        </Typography>
+        <Typography
+          sx={{
+            color: "#6CCFF6",
+            // fontFamily: `"Poppins", "sans-serif"`,
+            // fontFamily: `"Righteous", "cursive"`,
+            fontSize: {
+              xs: "1.15rem",
+              sm: "1.3rem",
+              md: "1.4rem",
+              lg: "1.5rem",
+            },
+          }}
+          style={{marginTop:"-30px"}}
+        >
+          Nehru Place, Delhi 110019
         </Typography>
         <IconButton
           sx={{

@@ -10,6 +10,7 @@ import Env from "../assets/Min-of-Env.jpg";
 import AHP from "../assets/AHP.jpg";
 import DIOS from "../assets/DIOS-LOGO-NEW.jpg";
 import IPCA from "../assets/IPCA.jpg";
+import EMPB from "../assets/landing/empb.png";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -65,6 +66,9 @@ const ValuableClients = () => {
         </SwiperSlide>
         <SwiperSlide className="clientSwipe">
           <Box component="img" className="clientImg" src={Env}></Box>
+        </SwiperSlide>
+        <SwiperSlide className="clientSwipe">
+          <Box component="img" className="clientImg" src={EMPB}></Box>
         </SwiperSlide>
         <SwiperSlide className="clientSwipe">
           <Box component="img" className="clientImg" src={IPCA}></Box>
