@@ -2,8 +2,8 @@ import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import FlexBetween from "../components/FlexBetween";
-import AboutUs1Pic from "../assets/AboutUs_1.jpg";
-import AboutUs2Pic from "../assets/AboutUs_2.png";
+import AboutUs1Pic from "../assets/landing/corporate.jpg";
+import AboutUs2Pic from "../assets/landing/Kids.jpg";
 const AboutUs = () => {
   return (
     <>
