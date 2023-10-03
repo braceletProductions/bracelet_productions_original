@@ -68,7 +68,7 @@ const ValuableClients = () => {
           <Box component="img" className="clientImg" src={Env}></Box>
         </SwiperSlide>
         <SwiperSlide className="clientSwipe">
-          <Box component="img" className="clientImg" src={EMPB}></Box>
+          <Box component="img" className="clientImg" src={EMPB} width={200} height={100} style={{marginTop:"15px"}} ></Box>
         </SwiperSlide>
         <SwiperSlide className="clientSwipe">
           <Box component="img" className="clientImg" src={IPCA}></Box>
